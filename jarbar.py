@@ -5,6 +5,9 @@ class JarBar():
     def to_string(self):
         if not str(self.num).isdigit():
             return ""
+        if self.num == 0:
+            return ""
+        
 
 import unittest
 
